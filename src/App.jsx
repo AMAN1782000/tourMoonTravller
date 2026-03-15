@@ -8,7 +8,7 @@ import Header from './component/header.jsx'
 import PackageGrid from './screen/PackageScreen.jsx'
 import PackageDetails from './cards/PackageCard.jsx'
 import HoneymoonScreen from './screen/HoneyMoonScreen.jsx'
-import HoneymoonDetailsPage from './cards/honeymoonCard.jsx'
+import HoneymoonDetailsPage from './cards/HoneymoonCard.jsx'
 
 import GroupTourDetails from './cards/GroupTourCard.jsx'
 import GroupTours from './screen/TourGroupScreen.jsx'
