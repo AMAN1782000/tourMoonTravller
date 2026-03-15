@@ -42,7 +42,7 @@ const initialState = {
           desc: " checkout hotel at 10am, now the time is yours till evening, than departure for delhi.
         },
         {
-          day: "day 5",
+          day: "day 6",
           desc: "Early morning arrival at Delhi. Tour ends with sweet memories
     },
     {
