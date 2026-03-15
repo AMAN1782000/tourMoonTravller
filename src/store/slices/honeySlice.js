@@ -10,7 +10,7 @@ const initialState = {
       id: "moon-traveller-manali",
       title: "Romantic Manali Retreat",
       duration: "4N/5D",
-      price: "Price on Request",
+      price: "₹7,499",
       tag: "Honeymoon Special",
       image: hidimbaTemple,
       description: "A curated 4-day journey for couples featuring the best of Manali, from the spiritual Hadimba Temple to the snowy heights of Solang Valley and Atal Tunnel.",
