@@ -1,4 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
+import manali from '../../resourse/honeyMoonPhoto/manali.jpeg'
+import hidimbaTemple from '../../resourse/honeyMoonPhoto/hidimbaTemple.jpeg'
+import kasol from '../../resourse/honeyMoonPhoto/kasol.jpeg'
+
 
 const initialState = {
   items: [
@@ -9,7 +13,7 @@ const initialState = {
       duration: "4N/5D",
       price: "Price on Request",
       tag: "Honeymoon Special",
-      image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1000",
+      image: hidimbaTemple,
       description: "A curated 4-day journey for couples featuring the best of Manali, from the spiritual Hadimba Temple to the snowy heights of Solang Valley and Atal Tunnel.",
       perks: [
         "Flower Decorated Bed & Honeymoon Cake",
@@ -47,7 +51,7 @@ const initialState = {
     duration: "4N/5D",
     price: "₹6,999",
     tag: "Honeymoon Package 1",
-    image: "https://images.unsplash.com/photo-1621532024806-258046b0a944?auto=format&fit=crop&q=80&w=1000",
+    image: manali,
     description: "A budget-friendly yet romantic getaway to the heart of the Himalayas, featuring essential honeymoon treats and iconic Manali sightseeing.",
     perks: [
       "Flower Bed Decoration",
@@ -69,7 +73,7 @@ const initialState = {
       duration: "5N/6D",
       price: "₹7,999",
       tag: "Extended Nature Tour",
-      image: "https://images.unsplash.com/photo-1605649440416-43f94262f602?auto=format&fit=crop&q=80&w=1000",
+    image:  kasol,
       description: "An extended romantic journey covering the best of Manali plus the serene vibes of Kasol and the spiritual warmth of Manikaran hot springs.",
       perks: [
         "Kasol & Manikaran Excursion",

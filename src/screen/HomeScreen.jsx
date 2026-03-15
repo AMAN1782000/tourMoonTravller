@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Heart, Users, ArrowRight, ShieldCheck, Star, Compass, Award } from 'lucide-react';
+import homePagePhoto from '../resourse/ScreenPhoto/HomPagePhoto.jpeg';
+import river from '../resourse/ScreenPhoto/river.jpeg';
+import honeyMoon from '../resourse/ScreenPhoto/honeyMoon.jpeg';
+import gropTour from '../resourse/ScreenPhoto/gropTour.jpeg';
 
 const Home = () => {
   return (
@@ -8,7 +12,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <img 
-          src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=1600" 
+          src={homePagePhoto} 
           className="absolute inset-0 w-full h-full object-cover"
           alt="Himalayas"
         />
@@ -41,8 +45,8 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&q=80&w=600" className="rounded-3xl h-64 w-full object-cover mt-8 shadow-lg" alt="Manali" />
-              <img src="https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&q=80&w=600" className="rounded-3xl h-64 w-full object-cover shadow-lg" alt="Leh" />
+              <img src={homePagePhoto} className="rounded-3xl h-64 w-full object-cover mt-8 shadow-lg" alt="Manali" />
+              <img src={river} className="rounded-3xl h-64 w-full object-cover shadow-lg" alt="Leh" />
             </div>
             {/* Floating Badge */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-3xl shadow-2xl border border-slate-100 hidden md:block">
@@ -90,7 +94,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Honeymoon Entry */}
           <Link to="/honeymoon" className="group relative h-[450px] rounded-[3rem] overflow-hidden shadow-2xl">
-            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1000" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+            <img src={honeyMoon} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-rose-900/90 via-black/20 to-transparent"></div>
             <div className="absolute bottom-10 left-10 text-white">
               <Heart className="text-rose-400 mb-4 fill-rose-400" size={32} />
@@ -101,7 +105,7 @@ const Home = () => {
 
           {/* Group Entry */}
           <Link to="/group-tours" className="group relative h-[450px] rounded-[3rem] overflow-hidden shadow-2xl">
-            <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&q=80&w=1000" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+            <img src={gropTour} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/90 via-black/20 to-transparent"></div>
             <div className="absolute bottom-10 left-10 text-white">
               <Users className="text-blue-400 mb-4" size={32} />

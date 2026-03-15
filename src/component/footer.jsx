@@ -75,7 +75,6 @@ const Footer = () => {
           </div>
         </div>
 
-
         {/* Bottom Bar */}
         <div className="mt-12 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 font-medium">
           <p>© 2026 Moon Traveller. All rights reserved.</p>

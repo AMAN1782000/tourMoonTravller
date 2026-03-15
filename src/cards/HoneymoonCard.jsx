@@ -59,7 +59,7 @@ const HoneymoonDetailsPage = () => {
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
       <div className="relative h-[60vh] overflow-hidden">
-        <img src={pkg.image?.startsWith('http') ? pkg.image : `https://images.unsplash.com/${pkg.image}?auto=format&fit=crop&q=80&w=1600`} alt={pkg.title} className="w-full h-full object-cover" />
+        <img src={pkg.image} alt={pkg.title} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
          <Link to="/">
         <button 

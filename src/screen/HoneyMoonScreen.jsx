@@ -4,6 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 // Import the action from your honeymoon slice
 import { setSelectedHoneymoon } from '../store/slices/honeySlice.js'; 
+import honeyMoon from '../resourse/ScreenPhoto/honeyMoon.jpeg'
 
 const HoneymoonScreen = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const HoneymoonScreen = () => {
       {/* Hero Banner */}
       <div className="relative h-[400px] flex items-center justify-center">
         <img 
-          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1600" 
+          src={honeyMoon} 
           className="absolute inset-0 w-full h-full object-cover"
           alt="Romantic Background"
         />
@@ -63,7 +64,7 @@ const HoneymoonScreen = () => {
             <div key={pkg.id} className="bg-white rounded-[2rem] overflow-hidden border border-rose-100 shadow-sm hover:shadow-xl transition-all duration-500 group">
               <div className="relative h-72 overflow-hidden">
                 <img 
-                  src={pkg.image?.startsWith('http') ? pkg.image : `https://images.unsplash.com/${pkg.image}?auto=format&fit=crop&q=80&w=1600`} 
+                  src={pkg.image} 
                   alt={pkg.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
