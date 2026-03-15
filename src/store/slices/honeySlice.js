@@ -35,10 +35,14 @@ const initialState = {
         },
         {
           day: "Day 4",
-          desc: "Explore Kullu: Visit Vaishno Devi Mata Mandir, National Park, and Naggar Castle. Evening departure for Delhi."
+          desc: "Explore Kullu: Visit Vaishno Devi Mata Mandir, National Park, and Naggar Castle."
         },
         {
           day: "Day 5",
+          desc: " checkout hotel at 10am, now the time is yours till evening, than departure for delhi.
+        },
+        {
+          day: "day 5",
           desc: "Early morning arrival at Delhi. Tour ends with sweet memories."
         }
   ]
