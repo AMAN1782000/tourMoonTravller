@@ -43,10 +43,7 @@ const initialState = {
         },
         {
           day: "day 5",
-          desc: "Early morning arrival at Delhi. Tour ends with sweet memories."
-        }
-  ]
-
+          desc: "Early morning arrival at Delhi. Tour ends with sweet memories
     },
     {
     id: "manali-honeymoon-starter",
