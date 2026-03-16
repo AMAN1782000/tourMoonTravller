@@ -90,7 +90,7 @@ const HoneymoonDetailsPage = () => {
               <Sparkles className="text-rose-500" /> Exclusive Honeymoon Perks
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {['Flower Bed Decoration', 'Candlelight Dinner', 'Honeymoon Cake', 'Private Cab'].map((perk) => (
+              {pkg.perks.map((perk) => (
                 <div key={perk} className="flex items-center gap-3 p-4 bg-rose-50 rounded-2xl border border-rose-100 text-rose-900 font-bold text-sm">
                   <CheckCircle2 size={18} className="text-rose-500" /> {perk}
                 </div>
