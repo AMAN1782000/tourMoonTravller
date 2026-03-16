@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import kheer from '../../resourse/kheer.avif';
 import kullurafting from '../../resourse/kullurafting.jpg';
+import jimcorbet from '../../resourse/jimcorbet.webp';
 const initialState = {
   items: [
     {
@@ -39,7 +40,7 @@ const initialState = {
       duration: '2N/3D',
       price: 'N/A',
       tag: 'Wildlife',
-      image: 'https://images.unsplash.com/photo-1581012733671-5085e64814c7',
+      image: jimcorbet,
       category: 'Nature',
       description: 'Explore the rich biodiversity of Corbett National Park with expert guides.',
       itinerary: [
