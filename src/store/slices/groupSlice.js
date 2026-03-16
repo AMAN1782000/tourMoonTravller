@@ -36,6 +36,23 @@ const initialState = {
         { day: 'Day 2', desc: 'Local sightseeing & cultural visit.' },
         { day: 'Day 3', desc: 'Visit to Sheshnag & Chandanwadi Lakes.' }
       ]
+    },
+    {
+      id: 'spiti-summer-2024',
+      title: 'Spiti Valley: The Middle Land Expedition',
+      duration: '7N/8D',
+      price: '₹18,999',
+      groupSize: '12-15 slots',
+      nextBatch: 'June 15, 2024',
+      tag: 'Adventure',
+      rating: 4.9,
+      image: 'https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&q=80&w=800',
+      description: 'Traverse through the high-altitude desert, visiting ancient monasteries like Key and Dhankar.',
+      itinerary: [
+        { day: 'Day 1', desc: 'Arrival in Spiti & Check-in at Resort.' },
+        { day: 'Day 2', desc: 'Local sightseeing & cultural visit.' },
+        { day: 'Day 3', desc: 'Visit to Key Monastery & Dhankar Monastery.' }
+      ]
     }
   ],
   selectedGroupPackage: null
