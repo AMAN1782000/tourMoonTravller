@@ -37,8 +37,7 @@ const initialState = {
       image: manali,
       description: "A budget-friendly yet romantic getaway to the heart of the Himalayas, featuring essential honeymoon treats and iconic Manali sightseeing.",
       perks: [
-        "Flower Bed Decoration",
-        "Candle Light Dinner & Cake",
+        "Private cab",
         "2 Glasses of Kesar Milk",
         "MAP Plan (2 Breakfast & 2 Dinner)"
       ],
