@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import kheer from '../../resourse/kheer.avif';
 
 const initialState = {
   items: [
@@ -8,7 +9,7 @@ const initialState = {
       duration: '3N/4D',
       price: 'N/A',
       tag: 'Backpacker',
-      image: 'https://images.unsplash.com/photo-1590502160462-099419105479',
+      image: kheer,
       category: 'Trekking',
       description: 'Experience the magic of Manali with a stay in a premium snow-view suite.',
       itinerary: [
