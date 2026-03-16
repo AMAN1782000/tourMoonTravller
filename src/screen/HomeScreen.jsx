@@ -75,8 +75,8 @@ const Home = () => {
               </div>
               <div className="w-[1px] bg-slate-200"></div>
               <div>
-                <p className="text-2xl font-black text-slate-900 italic">100%</p>
-                <p className="text-xs font-bold text-slate-400 uppercase">Safe & Secure</p>
+                {/* <p className="text-2xl font-black text-slate-900 italic">100%</p> */}
+                {/* <p className="text-xs font-bold text-slate-400 uppercase">Safe & Secure</p> */}
               </div>
             </div>
           </div>
