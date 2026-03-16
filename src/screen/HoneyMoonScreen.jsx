@@ -46,7 +46,7 @@ const HoneymoonScreen = () => {
           {[
             { icon: <UtensilsCrossed size={20} />, text: "Candlelight Dinner" },
             { icon: <Sparkles size={20} />, text: "Bed Decoration" },
-            { icon: <Camera size={20} />, text: "Couples Shoot" },
+            // { icon: <Camera size={20} />, text: "Couples Shoot" },
             { icon: <Heart size={20} />, text: "Honeymoon Cake" },
           ].map((item, i) => (
             <div key={i} className="flex items-center gap-3 text-rose-600 font-bold text-sm">
