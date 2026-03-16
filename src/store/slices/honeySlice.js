@@ -8,7 +8,7 @@ const initialState = {
     {
       id: "moon-traveller-manali",
       title: "Romantic Manali Retreat",
-      duration: "4N/5D",
+      duration: "5N/6D",
       price: "₹7,499/per person",
       tag: "Honeymoon Special",
       image: hidimbaTemple,
