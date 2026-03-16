@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import kheer from '../../resourse/kheer.avif';
-
+import kullurafting from '../../resourse/kullurafting.jpg';
 const initialState = {
   items: [
     {
@@ -20,11 +20,11 @@ const initialState = {
     },
     {
       id: 'rishikesh-rafting',
-      title: 'Rishikesh Rafting Camp',
+      title: 'kullu rafting camp',
       duration: '2N/3D',
       price: 'N/A',
       tag: 'Weekend',
-      image: 'https://images.unsplash.com/photo-1530713707191-910406609914',
+      image: kullurafting ,
       category: 'Adventure',
       description: 'Enjoy the thrill of rafting in the Ganges with expert guides.',
        itinerary: [
