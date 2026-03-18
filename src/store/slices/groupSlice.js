@@ -3,20 +3,23 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
   items: [
     {
-      id: 'spiti-summer-2024',
-      title: 'Spiti Valley: The Middle Land Expedition',
-      duration: '7N/8D',
-      price: '₹18,999',
-      groupSize: '12-15 slots',
-      nextBatch: 'June 15, 2024',
+      id: 'spiti-summer-2026',
+      title: 'Chalo Himachal-paradise',
+      duration: '3N/4D',
+      price: '₹5,499',
+      groupSize: 'Adjustable',
+      nextBatch: 'On demand',
       tag: 'Adventure',
-      rating: 4.9,
+      rating: 4.7,
       image: 'https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&q=80&w=800',
-      description: 'Traverse through the high-altitude desert, visiting ancient monasteries like Key and Dhankar.',
+      description: 'Traverse through the high-altitude, visiting ancient monasteries.',
       itinerary: [
-        { day: 'Day 1', desc: 'Arrival in Spiti & Check-in at Resort.' },
-        { day: 'Day 2', desc: 'Local sightseeing & cultural visit.' },
-        { day: 'Day 3', desc: 'Visit to Key Monastery & Dhankar Monastery.' }
+       { day: "Day 1", desc: "Evening departure from Delhi to Manali (Overnight journey)." },
+        { day: "Day 2", desc: "Check-in & Local Sightseeing: Old Manali cafes, Hidimba Temple, and Van Vihar." },
+        { day: "Day 3", desc: "Snow Experience: Solang Valley, Atal Tunnel, and Sissu sightseeing." },
+        { day: "Day 4", desc: "Kullu Valley: Visit Naggar Castle and adventure sports like Paragliding/Rafting." },
+        { day: "Day 5", desc: "Nature & Spirituality: Kasol local sightseeing and Manikaran Sahib hot springs. Evening departure." },
+        { day: "Day 6", desc: "Morning arrival in Delhi." }
       ]
 
     },
@@ -24,6 +27,7 @@ const initialState = {
       id: 'kashmir-great-lakes',
       title: 'Kashmir Great Lakes Trek',
       duration: '6N/7D',
+      
       price: '₹15,500',
       groupSize: '10 slots',
       nextBatch: 'July 10, 2024',
