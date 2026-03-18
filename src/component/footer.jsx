@@ -40,7 +40,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {* Support
+            {/* Support
             <div>
               <h4 className="text-white font-bold mb-6">Support</h4>
               <ul className="space-y-4 text-sm">
@@ -49,7 +49,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-400 transition-colors">Cancellation Policy</a></li>
                 <li><a href="#" className="hover:text-blue-400 transition-colors">Booking Guide</a></li>
               </ul>
-            </div> *}
+            </div> */}
 
             {/* Contact Info */}
             <div className="col-span-2 md:col-span-1">
