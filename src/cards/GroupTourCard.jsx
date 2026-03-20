@@ -83,7 +83,7 @@ const GroupTourDetails = () => {
           <section>
             <h2 className="text-2xl font-black text-slate-900 mb-6 flex items-center gap-3"><Zap className="text-blue-600" /> Batch Highlights</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {['Professional Captain', 'Verified Community', 'Premium Transportation', 'Shared Accomodation'].map((perk) => (
+              {tour.batchHighlights.map((perk) => (
                 <div key={perk} className="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-100 text-slate-700 font-bold text-sm">
                   <CheckCircle2 size={18} className="text-emerald-500" /> {perk}
                 </div>
