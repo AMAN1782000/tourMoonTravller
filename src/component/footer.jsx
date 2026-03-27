@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="text-2xl font-bold text-white tracking-tight">Moon Traveller</span>
             </div>
             <p className="text-slate-400 max-w-sm leading-relaxed">
-              Crafting unforgettable journeys since 2020. Specializing in honeymoon packages and adventure tours across Manali and beyond.
+              Crafting unforgettable journeys since 2025. Specializing in honeymoon packages and adventure tours across Manali and beyond.
             </p>
             <div className="flex gap-4 pt-2">
               {[Instagram, Facebook, Twitter, Youtube].map((Icon, i) => (
